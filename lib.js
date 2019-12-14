@@ -1,10 +1,10 @@
-postman.setEnvironmentVariable("utils", () => {
+var commonUtils1=() => {
     var myFunction1 = () => {
-        console.log("func1");
+       console.log("edf");
     }
     var myFunction2 = () => {
-
-        console.log("func2");
+        
+        console.log("zyx");
     }
     return {
         myPackage: {
@@ -12,4 +12,4 @@ postman.setEnvironmentVariable("utils", () => {
             myFunction2
         }
     };
-})
+}
