@@ -1,5 +1,3 @@
-var commonUtils1=() => {
-    var myFunction1 = () => {
-       console.log("edf");
-    }
+function test(){
+    console.log("func1");
 }
